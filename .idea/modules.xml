@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/jb.academy.java.coffee-machine.iml" filepath="$PROJECT_DIR$/.idea/jb.academy.java.coffee-machine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/jb.academy.java.coffee-machine.Coffee_Machine_Simulator_with_Java-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/jb.academy.java.coffee-machine.Coffee_Machine_Simulator_with_Java-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/jb.academy.java.coffee-machine.Coffee_Machine_Simulator_with_Java-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/jb.academy.java.coffee-machine.Coffee_Machine_Simulator_with_Java-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/jb.academy.java.coffee-machine.Coffee_Machine_Simulator_with_Java-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/jb.academy.java.coffee-machine.Coffee_Machine_Simulator_with_Java-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/jb.academy.java.coffee-machine.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/jb.academy.java.coffee-machine.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/jb.academy.java.coffee-machine.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/jb.academy.java.coffee-machine.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/jb.academy.java.coffee-machine.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/jb.academy.java.coffee-machine.util.test.iml" />
+    </modules>
+  </component>
+</project>
