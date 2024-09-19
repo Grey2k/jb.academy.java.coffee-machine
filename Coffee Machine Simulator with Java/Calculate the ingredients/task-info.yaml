@@ -124,5 +124,23 @@ files:
     visible: true
     learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5330#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #1
+
+    One of the last 3 lines doesn&#39;t contain &quot;milk&quot;, &quot;water&quot; or &quot;beans&quot;
+
+    Please find below the output of your program during this failed test.
+
+    ---
+
+    Starting to make a coffee
+    Grinding coffee beans
+    Boiling water
+    Mixing boiled water with crushed coffee beans
+    Pouring coffee into the cup
+    Pouring some milk into the cup
+    Coffee is ready!
+  time: "Thu, 19 Sep 2024 09:26:37 UTC"
 record: -1
