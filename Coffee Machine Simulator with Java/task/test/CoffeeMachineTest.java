@@ -4,9 +4,7 @@ import org.hyperskill.hstest.testcase.TestCase;
 
 import java.util.List;
 
-
 public class CoffeeMachineTest extends StageTest<String> {
-
     @Override
     public List<TestCase<String>> generate() {
         return List.of(
@@ -31,67 +29,47 @@ public class CoffeeMachineTest extends StageTest<String> {
     @Override
     public CheckResult check(String reply, String clue) {
         String[] lines = reply.split("\\n");
-        if (lines.length < 3) {
-            return new CheckResult(false,
-                "Output contains less than 3 lines, but should output at least 3 lines");
+        if (lines.length < 4) {
+            return CheckResult.wrong("The output contains " + lines.length + " lines, but it should contain 4.");
         }
         String[] last3Lines = {
-            lines[lines.length - 3],
-            lines[lines.length - 2],
-            lines[lines.length - 1]
+                lines[lines.length - 3],
+                lines[lines.length - 2],
+                lines[lines.length - 1]
         };
 
         int cups = Integer.parseInt(clue);
-        boolean water = false, milk = false, beans = false;
+        boolean hasWater = false, hasMilk = false, hasCoffeeBeans = false;
 
-        for(String line : last3Lines) {
+        for (String line : last3Lines) {
             line = line.toLowerCase();
 
-            if(line.contains("milk")) {
-                milk = line.contains(Integer.toString(cups * 50));
-                if (!milk) {
-                    return new CheckResult(false,
-                        "For the input " + clue + " your program output:\n\"" +
-                            line + "\"\nbut the amount of milk should be " + (cups * 50));
+            if (line.contains("water")) {
+                hasWater = line.contains(Integer.toString(cups * 200));
+                if (!hasWater) {
+                    return CheckResult.wrong("For the input: " + clue + " cups of coffee\nYour program output: " + line + "\nBut the required amount of water is " + (cups * 200) + " ml");
                 }
-
-            } else if(line.contains("water")) {
-                water = line.contains(Integer.toString(cups * 200));
-                if (!water) {
-                    return new CheckResult(false,
-                        "For the input " + clue + " your program output:\n" +
-                            line + "\nbut the amount of water should be " + (cups * 200));
+            } else if (line.contains("milk")) {
+                hasMilk = line.contains(Integer.toString(cups * 50));
+                if (!hasMilk) {
+                    return CheckResult.wrong("For the input: " + clue + " cups of coffee\nYour program output: " + line + "\nBut the required amount of milk is " + (cups * 50) + " ml");
                 }
-
-            } else if(line.contains("beans")) {
-                beans = line.contains(Integer.toString(cups * 15));
-                if (!beans) {
-                    return new CheckResult(false,
-                        "For the input " + clue + " your program output:\n" +
-                            line + "\nbut the amount of beans should be " + (cups * 15));
+            } else if (line.contains("coffee bean")) {
+                hasCoffeeBeans = line.contains(Integer.toString(cups * 15));
+                if (!hasCoffeeBeans) {
+                    return CheckResult.wrong("For the input: " + clue + " cups of coffee\nYour program output: " + line + "\nBut the required amount of coffee beans is " + (cups * 15) + " g");
                 }
-
-
-            } else {
-                return new CheckResult(false,
-                    "One of the last 3 lines " +
-                        "doesn't contain \"milk\", \"water\" or \"beans\"");
             }
         }
 
-        if (!water) {
-            return new CheckResult(false,
-                "There is no line with amount of water");
+        if (!hasWater) {
+            return CheckResult.wrong("There is no line specifying the required amount of \"water\".");
         }
-
-        if (!milk) {
-            return new CheckResult(false,
-                "There is no line with amount of milk");
+        if (!hasMilk) {
+            return CheckResult.wrong("There is no line specifying the required amount of \"milk\".");
         }
-
-        if (!beans) {
-            return new CheckResult(false,
-                "There is no line with amount of coffee beans");
+        if (!hasCoffeeBeans) {
+            return CheckResult.wrong("There is no line specifying the required amount of \"coffee beans\".");
         }
 
         return CheckResult.correct();

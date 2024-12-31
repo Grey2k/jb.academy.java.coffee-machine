@@ -9,7 +9,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="jb.academy.java.coffee-machine.Coffee_Machine_Simulator_with_Java-task-build-generated-sources-annotationProcessor-java.main" />
+    <orderEntry type="module" module-name="java.jb.academy.java.coffee-machine.Coffee_Machine_Simulator_with_Java-task-build-generated-sources-annotationProcessor-java.main" />
     <orderEntry type="module" module-name="jb.academy.java.coffee-machine.util.main" />
     <orderEntry type="module" module-name="jb.academy.java.coffee-machine.util.test" production-on-test="" />
     <orderEntry type="library" name="Gradle: com.github.hyperskill:hs-test:release-SNAPSHOT" level="project" />

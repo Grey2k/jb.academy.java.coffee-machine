@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-09-19T09:26:36" hostname="macbook-C02DG4V0MD6R" time="0.166">
+<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-11-09T11:44:34" hostname="grey2k-zbook" time="0.109">
   <properties/>
-  <testcase name="start" classname="CoffeeMachineTest" time="0.166">
-    <failure message="java.lang.AssertionError: Wrong answer in test #1&#10;&#10;One of the last 3 lines doesn't contain &quot;milk&quot;, &quot;water&quot; or &quot;beans&quot;&#10;&#10;Please find below the output of your program during this failed test.&#10;&#10;---&#10;&#10;Starting to make a coffee&#10;Grinding coffee beans&#10;Boiling water&#10;Mixing boiled water with crushed coffee beans&#10;Pouring coffee into the cup&#10;Pouring some milk into the cup&#10;Coffee is ready!" type="java.lang.AssertionError">java.lang.AssertionError: Wrong answer in test #1
+  <testcase name="start" classname="CoffeeMachineTest" time="0.109">
+    <failure message="java.lang.AssertionError: Wrong answer in test #1&#10;&#10;For the input: 25 cups of coffee&#10;Your program output: pouring some milk into the cup&#10;But the required amount of milk is 1250 ml&#10;&#10;Please find below the output of your program during this failed test.&#10;&#10;---&#10;&#10;Starting to make a coffee&#10;Grinding coffee beans&#10;Boiling water&#10;Mixing boiled water with crushed coffee beans&#10;Pouring coffee into the cup&#10;Pouring some milk into the cup&#10;Coffee is ready!" type="java.lang.AssertionError">java.lang.AssertionError: Wrong answer in test #1
 
-One of the last 3 lines doesn't contain &quot;milk&quot;, &quot;water&quot; or &quot;beans&quot;
+For the input: 25 cups of coffee
+Your program output: pouring some milk into the cup
+But the required amount of milk is 1250 ml
 
 Please find below the output of your program during this failed test.
 
@@ -22,7 +24,7 @@ Coffee is ready!
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
@@ -47,7 +49,7 @@ Coffee is ready!
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)

@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://cogniterra.org/media/attachments/lesson/22987/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Thu, 19 Sep 2024 09:21:00 UTC"
+update_date: "Tue, 31 Dec 2024 15:23:57 UTC"
 stages:
   - id: 175
     step: 5329
@@ -67,6 +67,12 @@ topics:
     - title: String
       theory_id: 3523
   2:
+    - title: Data types and their sizes
+      theory_id: 3532
+    - title: Type casting
+      theory_id: 3510
+    - title: Calling methods
+      theory_id: 10973
     - title: Floating-point types
       theory_id: 3517
     - title: Boolean type and operations. True and false
@@ -75,7 +81,6 @@ topics:
       theory_id: 3512
     - title: Conditional statement
       theory_id: 3503
-  3:
     - title: One-line condition with ternary operator
       theory_id: 3506
     - title: While and do-while loops
@@ -84,25 +89,12 @@ topics:
       theory_id: 3505
     - title: Break and continue. Branching
       theory_id: 3507
-    - title: "Multiple conditions: switch"
-      theory_id: 3504
-    - title: IntelliJ IDEA
-      theory_id: 37202
-    - title: IntelliJ IDEA basics
-      theory_id: 5819
-    - title: JetBrains Academy plugin
-      theory_id: 5839
-  5:
-    - title: Data types and their sizes
-      theory_id: 3532
-    - title: Type casting
-      theory_id: 3510
-    - title: Calling methods
-      theory_id: 10973
     - title: Declaring methods
       theory_id: 10982
     - title: Method "main"
       theory_id: 3489
+    - title: "Multiple conditions: switch"
+      theory_id: 3504
     - title: Functional decomposition
       theory_id: 10570
     - title: Primitive and reference types
@@ -115,6 +107,16 @@ topics:
       theory_id: 3602
     - title: Constants. Final variables
       theory_id: 7427
+  3:
+    - title: IDE
+      theory_id: 10996
+    - title: IntelliJ IDEA
+      theory_id: 37202
+    - title: IntelliJ IDEA basics
+      theory_id: 5819
+    - title: JetBrains Academy plugin
+      theory_id: 5839
+  5:
     - title: Defining classes
       theory_id: 3618
     - title: Instance methods
