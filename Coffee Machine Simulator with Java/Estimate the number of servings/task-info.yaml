@@ -2,6 +2,12 @@ type: edu
 files:
   - name: src/machine/CoffeeMachine.java
     visible: true
+  - name: src/machine/IngredientsCalculator.java
+    visible: true
+  - name: src/machine/Recipie.java
+    visible: true
+  - name: src/machine/DefaultRecipie.java
+    visible: true
   - name: test/CoffeeMachineTest.java
     visible: false
-feedback_link: https://hyperskill.org/learn/step/5331#comment
+feedback_link: https://hyperskill.org/projects/33/stages/177/implement#comment

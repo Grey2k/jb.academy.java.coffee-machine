@@ -4,4 +4,10 @@ files:
     visible: true
   - name: test/CoffeeMachineTest.java
     visible: false
+  - name: src/machine/IngredientsCalculator.java
+    visible: true
+  - name: src/machine/Recipie.java
+    visible: true
+  - name: src/machine/DefaultRecipie.java
+    visible: true
 feedback_link: https://hyperskill.org/learn/step/5332#comment
