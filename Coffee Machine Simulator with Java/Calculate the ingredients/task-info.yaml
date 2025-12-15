@@ -2,39 +2,12 @@ type: edu
 files:
   - name: src/machine/CoffeeMachine.java
     visible: true
-    learner_created: false
   - name: test/CoffeeMachineTest.java
     visible: false
-    learner_created: false
   - name: src/machine/IngredientsCalculator.java
     visible: true
-    learner_created: true
   - name: src/machine/Recipie.java
     visible: true
-    learner_created: true
   - name: src/machine/DefaultRecipie.java
     visible: true
-    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5330#comment
-status: Failed
-feedback:
-  message: |-
-    Wrong answer in test #1
-
-    For the input: 25 cups of coffee
-    Your program output: pouring some milk into the cup
-    But the required amount of milk is 1250 ml
-
-    Please find below the output of your program during this failed test.
-
-    ---
-
-    Starting to make a coffee
-    Grinding coffee beans
-    Boiling water
-    Mixing boiled water with crushed coffee beans
-    Pouring coffee into the cup
-    Pouring some milk into the cup
-    Coffee is ready!
-  time: "Sat, 09 Nov 2024 11:44:35 UTC"
-record: -1
