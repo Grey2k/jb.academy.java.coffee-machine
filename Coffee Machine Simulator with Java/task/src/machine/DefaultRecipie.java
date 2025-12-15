@@ -15,10 +15,12 @@ public class DefaultRecipie extends Recipie {
         return water;
     }
 
+    @Override
     public int getMilk() {
         return milk;
     }
 
+    @Override
     public int getCoffeeBeans() {
         return coffeeBeans;
     }
