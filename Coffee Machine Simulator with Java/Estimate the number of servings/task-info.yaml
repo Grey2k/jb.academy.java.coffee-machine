@@ -2,12 +2,19 @@ type: edu
 files:
   - name: src/machine/CoffeeMachine.java
     visible: true
-  - name: src/machine/IngredientsCalculator.java
+    learner_created: false
+  - name: test/CoffeeMachineTest.java
     visible: true
-  - name: src/machine/Recipie.java
-    visible: true
+    learner_created: false
   - name: src/machine/DefaultRecipie.java
     visible: true
-  - name: test/CoffeeMachineTest.java
-    visible: false
+    learner_created: true
+  - name: src/machine/IngredientsCalculator.java
+    visible: true
+    learner_created: true
+  - name: src/machine/Recipie.java
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/projects/33/stages/177/implement#comment
+status: Failed
+record: 25

@@ -4,7 +4,7 @@
     <output url="file://$MODULE_DIR$/../../../../../../../Coffee Machine Simulator with Java/task/build/reports/tests/out/production/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../../../Coffee Machine Simulator with Java/task/build/reports/tests/src" />
-    <orderEntry type="jdk" jdkName="23" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="temurin-23" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

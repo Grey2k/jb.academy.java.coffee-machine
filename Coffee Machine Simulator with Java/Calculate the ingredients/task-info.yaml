@@ -2,12 +2,19 @@ type: edu
 files:
   - name: src/machine/CoffeeMachine.java
     visible: true
+    learner_created: false
   - name: test/CoffeeMachineTest.java
-    visible: false
+    visible: true
+    learner_created: false
   - name: src/machine/IngredientsCalculator.java
     visible: true
+    learner_created: false
   - name: src/machine/Recipie.java
     visible: true
+    learner_created: false
   - name: src/machine/DefaultRecipie.java
     visible: true
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/5330#comment
+status: Solved
+record: 24

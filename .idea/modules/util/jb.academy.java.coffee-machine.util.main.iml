@@ -3,8 +3,10 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_23">
     <output url="file://$MODULE_DIR$/../../../util/out/production/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../util/src" />
-    <orderEntry type="jdk" jdkName="23" jdkType="JavaSDK" />
+    <content url="file://$MODULE_DIR$/../../../util/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../util/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="temurin-23" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: com.github.hyperskill:hs-test:release-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Gradle: org.assertj:assertj-swing-junit:3.17.1" level="project" />

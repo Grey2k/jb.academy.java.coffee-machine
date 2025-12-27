@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://hyperskill.org/api/projects/33/additional-files/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Mon, 15 Dec 2025 16:42:32 UTC"
+update_date: "Sat, 27 Dec 2025 21:48:14 UTC"
 stages:
   - id: 175
     step: 5329
@@ -138,8 +138,8 @@ topics:
   3:
     - title: IntelliJ IDEA basics
       theory_id: 5819
-    - title: JetBrains Academy plugin
-      theory_id: 5839
+    - title: Hyperskill Academy plugin
+      theory_id: 53354
   5:
     - title: Combining constants with enum
       theory_id: 11514

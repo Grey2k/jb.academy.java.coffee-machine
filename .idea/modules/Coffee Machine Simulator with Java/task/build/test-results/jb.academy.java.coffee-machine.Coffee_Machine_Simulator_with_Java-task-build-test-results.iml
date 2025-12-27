@@ -7,7 +7,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../../../../Coffee Machine Simulator with Java/task/build/test-results/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../../../Coffee Machine Simulator with Java/task/build/test-results/out" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="temurin-23" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
