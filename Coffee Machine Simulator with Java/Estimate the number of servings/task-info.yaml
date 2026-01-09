@@ -17,4 +17,22 @@ files:
     learner_created: true
 feedback_link: https://hyperskill.org/projects/33/stages/177/implement#comment
 status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #1
+
+    Looks like you didn&#39;t print the final result!
+
+    Please find below the output of your program during this failed test.
+    Note that the &#39;&gt;&#39; character indicates the beginning of the input line.
+
+    ---
+
+    Write how many cups of coffee you will need:
+    &gt; 300
+    For 300 cups of coffee you will need:
+    60000 ml of water
+    15000 ml of milk
+    4500 g of coffee beans
+  time: "Fri, 09 Jan 2026 12:27:15 UTC"
 record: 25

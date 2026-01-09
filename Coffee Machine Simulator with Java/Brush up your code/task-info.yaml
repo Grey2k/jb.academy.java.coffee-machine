@@ -3,9 +3,17 @@ files:
   - name: src/machine/CoffeeMachine.java
     visible: true
     learner_created: false
-  - name: test/CoffeeMachineTest.java
+  - name: src/machine/IngredientsCalculator.java
     visible: true
     learner_created: false
-feedback_link: https://hyperskill.org/learn/step/5334#comment
+  - name: src/machine/Recipie.java
+    visible: true
+    learner_created: false
+  - name: src/machine/DefaultRecipie.java
+    visible: true
+    learner_created: false
+  - name: test/CoffeeMachineTest.java
+    learner_created: false
+feedback_link: https://hyperskill.org/projects/33/stages/180/implement#comment
 status: Unchecked
 record: -1

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-12-15T16:43:18" hostname="macbook-HQR7Q007FJ" time="0.057">
+<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2026-01-09T12:27:14" hostname="GREYZBOOK" time="0.114">
   <properties/>
-  <testcase name="start" classname="CoffeeMachineTest" time="0.057">
+  <testcase name="start" classname="CoffeeMachineTest" time="0.114">
     <failure message="java.lang.AssertionError: Wrong answer in test #1&#10;&#10;Looks like you didn't print the final result!&#10;&#10;Please find below the output of your program during this failed test.&#10;Note that the '&gt;' character indicates the beginning of the input line.&#10;&#10;---&#10;&#10;Write how many cups of coffee you will need:&#10;&gt; 300&#10;For 300 cups of coffee you will need:&#10;60000 ml of water&#10;15000 ml of milk&#10;4500 g of coffee beans" type="java.lang.AssertionError">java.lang.AssertionError: Wrong answer in test #1
 
 Looks like you didn't print the final result!
