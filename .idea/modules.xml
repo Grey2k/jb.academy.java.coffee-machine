@@ -39,6 +39,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/jb.academy.java.coffee-machine.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/jb.academy.java.coffee-machine.util.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/jb.academy.java.coffee-machine.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/jb.academy.java.coffee-machine.util.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/jb.academy.java.coffee-machine.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/jb.academy.java.coffee-machine.util.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/out/out.jb.academy.java.coffee-machine.Coffee_Machine_Simulator_with_Java-task-out.iml" filepath="$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/out/out.jb.academy.java.coffee-machine.Coffee_Machine_Simulator_with_Java-task-out.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/out/out.jb.academy.java.coffee-machine.Coffee_Machine_Simulator_with_Java-task-out.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/out/out.jb.academy.java.coffee-machine.Coffee_Machine_Simulator_with_Java-task-out.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/out/out.jb.academy.java.coffee-machine.Coffee_Machine_Simulator_with_Java-task-out.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/out/out.jb.academy.java.coffee-machine.Coffee_Machine_Simulator_with_Java-task-out.test.iml" />
     </modules>
   </component>
 </project>
