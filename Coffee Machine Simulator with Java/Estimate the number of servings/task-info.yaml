@@ -3,18 +3,17 @@ files:
   - name: src/machine/CoffeeMachine.java
     visible: true
     learner_created: false
-  - name: test/CoffeeMachineTest.java
+  - name: src/machine/IngredientsCalculator.java
+    visible: true
+    learner_created: false
+  - name: src/machine/Recipie.java
     visible: true
     learner_created: false
   - name: src/machine/DefaultRecipie.java
     visible: true
-    learner_created: true
-  - name: src/machine/IngredientsCalculator.java
-    visible: true
-    learner_created: true
-  - name: src/machine/Recipie.java
-    visible: true
-    learner_created: true
+    learner_created: false
+  - name: test/CoffeeMachineTest.java
+    learner_created: false
 feedback_link: https://hyperskill.org/projects/33/stages/177/implement#comment
 status: Failed
 feedback:
@@ -34,5 +33,5 @@ feedback:
     60000 ml of water
     15000 ml of milk
     4500 g of coffee beans
-  time: "Fri, 09 Jan 2026 12:27:15 UTC"
-record: 25
+  time: "Mon, 09 Mar 2026 15:51:59 UTC"
+record: -1

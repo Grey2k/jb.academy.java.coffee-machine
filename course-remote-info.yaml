@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://hyperskill.org/api/projects/33/additional-files/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Fri, 09 Jan 2026 12:25:31 UTC"
+update_date: "Mon, 09 Mar 2026 15:47:45 UTC"
 stages:
   - id: 175
     step: 5329
@@ -50,7 +50,7 @@ topics:
       theory_id: 3518
     - title: Comments
       theory_id: 3520
-    - title: Reading user's input with Scanner
+    - title: Reading user input with Scanner
       theory_id: 9055
     - title: Coding style conventions
       theory_id: 12411
@@ -115,10 +115,10 @@ topics:
       theory_id: 3614
     - title: What are bugs
       theory_id: 5504
-    - title: Debugging overview
-      theory_id: 14368
     - title: IntelliJ IDEA
       theory_id: 37202
+    - title: Debugging overview
+      theory_id: 14368
     - title: Run and debug with IntelliJ IDEA
       theory_id: 37206
     - title: Debugging simple constructs
